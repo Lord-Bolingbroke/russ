@@ -1,8 +1,18 @@
-#russ-showing {
+#picture-showing {
   display: none;
 }
 
 .clickable {
+  text-decoration: underline;
+  color: #0088cc;
+  cursor: pointer;
+}
+
+#nested-picture-showing {
+  display: none;
+}
+
+.click {
   text-decoration: underline;
   color: #0088cc;
   cursor: pointer;

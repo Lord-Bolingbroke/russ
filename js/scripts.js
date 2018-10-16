@@ -1,6 +1,13 @@
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("#russ-showing").toggle();
-    $("#russ-hidden").toggle();
+    $("#picture-showing").toggle();
+    $("#picture-hidden").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".click").click(function() {
+    $("#nested-picture-showing").toggle();
+    $("#nested-picture-hidden").toggle();
   });
 });
